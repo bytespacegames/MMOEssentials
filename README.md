@@ -37,3 +37,9 @@ Allows you to add chat color to your string easily converts the & symbol followe
 Chat.addColor("&aThis is green. &eThis is yellow");
 ```
 This will return a string that when used in chat or elsewhere in game will be green and yellow.
+#ActionBar
+This simply will send packets to show the user a custom message in their ActionBar.
+```sh
+ActionBar.sendAction(player, "Hello.");
+```
+Sends the message "Hello." in white to the player's actionbar.
