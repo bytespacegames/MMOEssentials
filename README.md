@@ -8,4 +8,5 @@ In order to begin setting up, simply import MMOEssentials as an external archive
 #Configs (Avaliable since version 1.0)
 In order to create or initialize a config, create a config variable, the name is simply just "Config". Example:
 ```sh
-Config c = new Config("test.yml", "Test Plugin");```
+Config c = new Config("test.yml", "Test Plugin");
+```
