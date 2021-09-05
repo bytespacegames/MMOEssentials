@@ -31,3 +31,9 @@ You may also delete the config. However it's experimental.
 ```sh
 c.delete();
 ```
+# Better ChatColor (Avaliable since version 1.0)
+Allows you to add chat color to your string easily converts the & symbol followed by a colorcode / chat code character into a color
+```sh
+Chat.addColor("&aThis is green. &eThis is yellow");
+```
+This will return a string that when used in chat or elsewhere in game will be green and yellow.
